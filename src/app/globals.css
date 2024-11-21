@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 630px) and (max-width: 750px) {
+  /* Styles specific to screen widths between 630px and 750px */
+  .my-element {
+   width: 95%;
+  }
+}
+@media (min-width: 630px) and (max-width: 750px) {
+  /* Styles specific to screen widths between 630px and 750px */
+  .my-image {
+   top: 1px;
+   width: 60%;
+  }
+}
+
+
+@media (min-width: 250px) and (max-width: 920px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+    
+  }
+
+  /* This makes the second div display first */
+  .about .second {
+    order: -1; /* Set the second div to show first */
+    margin-top:0px;
+   
+  }
+
+  .about .first {
+    order: 1; /* Set the first div to show second */
+  }
+  .about .first p {
+      width: 90%;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 770px){
+  .about .second{
+    margin-top: 150px;
+  }
+}
+@media (min-width: 765px) and (max-width: 920px){
+  .about .second{
+    margin-top: 5px;
+  }
+ 
+}
+@media (min-width: 1800px) and (max-width: 2964px){
+.container .project-card{
+    width:100%;
+  }
+}
+
+
+
+@media (min-width: 1600px) and (max-width: 2110px){
+  .home .background-home{
+   width: 45%
+}}
+@media (min-width: 2110px) and (max-width: 2600px){
+  .home .background-home{
+   width: 35%
+}}
+@media (min-width: 1025px) and (max-width: 1600px){
+  .home .background-home{
+   width: 55%
+}}
+
