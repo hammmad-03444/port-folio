@@ -628,7 +628,7 @@ const HomePage = () => {
         {/* Intro Section - Text content */}
         <div className="relative z-10 w-full px-6 md:px-12 lg:px-20 flex flex-col items-start justify-center space-y-6">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
-            Hi, I'm <br />
+            Hi, I&apos;m <br />
             <span  className="text-cyan-400">Muhammad Hammad Khan</span><br />
             <span className="text-cyan-700">Web UI/UX Designer</span>
           </h1>
